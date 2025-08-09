@@ -41,7 +41,7 @@ function Navbar() {
         <div
             className={`fixed top-0 right-0 left-0 z-[90] transition-all duration-500 ease-in-out ${fixed && !open
                 ? "bg-white text-black shadow-md"
-                : "bg-black text-white shadow-none"
+                : "bg-dark text-white shadow-none"
                 } lg:py-4 py-3 lg:px-14 md:px-8 px-4`}>
             {/* Desktop Navbar */}
             <div className="lg:block hidden">
@@ -54,7 +54,7 @@ function Navbar() {
                             </Link>
                         ))}
                     </div>
-                    <button className={`rounded-full px-6 py-3 uppercase text-sm" ${fixed ? "bg-black text-white" : "bg-white text-black"}`}>Get Started</button>
+                    <button className={`rounded-full px-6 py-3 uppercase text-sm" ${fixed ? "bg-dark text-white" : "bg-white text-black"}`}>Get Started</button>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ function Navbar() {
                     </div>
                     <div
                         id="navLink"
-                        className={`flex flex-col items-start gap-8 py-12 absolute z-10 lg:static bg-black shadow left-0 w-full transition-all duration-500 ease-in-out md:px-8 px-4 ${open ? "top-16 " : "top-[-490px]"}`}
+                        className={`flex flex-col items-start gap-8 py-12 absolute z-10 lg:static bg-dark shadow left-0 w-full transition-all duration-500 ease-in-out md:px-8 px-4 ${open ? "top-16 " : "top-[-490px]"}`}
                     >
                         {Links.map((link, index) => (
                             <Link
