@@ -9,7 +9,7 @@ const Hero = () => {
                 A YOUNG CREATIVE DESIGNER BASED IN SAN DIEGO
             </h1>
             <div className="flex gap-4 pb-6">
-                <button className="lg:px-6 px-12 py-3 bg-trasnparent text-sm text-white border border-white hover:bg-gray-800 transition rounded-full uppercase cursor-pointer md:w-fit w-full hover:scale-[102]">my works</button>
+                <button className="lg:px-6 px-12 py-3 bg-transparent text-sm text-white border border-white hover:bg-gray-800 transition rounded-full uppercase cursor-pointer md:w-fit w-full hover:scale-[102]">my works</button>
                 <button className="bg-white hover:bg-gray-200 rounded-full lg:px-6 px-12 py-3 text-sm text-black uppercase cursor-pointer md:w-fit w-full hover:scale-[102]">let's talk</button>
             </div>
         </div>
